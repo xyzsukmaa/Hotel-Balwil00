@@ -1,0 +1,1031 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0d1b2a; /* Biru sangat tua untuk background utama */
+    color: #ffffff;
+}
+
+/* Header & Logo Area */
+header {
+    background-color: #0b132b; /* Biru tua yang lebih gelap untuk area header */
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.logo-container img {
+    max-width: 120px;
+    height: auto;
+}
+
+.hotel-title {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    color: #ffffff; /* Mengubah nama hotel menjadi putih bersih */
+    font-size: 24px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+/* Navigasi */
+nav {
+    margin-top: 25px;
+    display: inline-block;
+    border: 1px solid #1c2541; /* Border disesuaikan dengan nuansa biru */
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-menu li a {
+    color: #dacaca; /* Warna menu sebelum di-klik (putih agak abu agar tidak terlalu ngejreng) */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+/* Titik Pemisah (Dot) */
+.dot {
+    color: #48cae4; /* Titik pemisah diberi warna biru muda/cyan agar manis */
+    font-size: 18px;
+}
+
+/* Halaman Aktif / Hover yang tadinya merah, sekarang jadi Putih Terang */
+.nav-menu li a.active, .nav-menu li a:hover {
+    color: #ffffff; /* Menu aktif menjadi putih bersih bergaris bawah atau terang */
+    text-shadow: 0 0 10px rgba(255,255,255,0.5); /* Efek agak menyala sedikit */
+}
+
+/* Banner Hero (Yang tadinya MERAH, sekarang jadi BIRU LAUT/BIRU CERAH) */
+.hero-banner {
+    background-image: linear-gradient(rgba(15, 23, 42, 0.2), rgba(15, 23, 42, 0.2)), url('../assets/latar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px; 
+    box-shadow: inset 0 -10px 20px rgba(0,0,0,0.3);
+}
+
+.hero-banner h1 {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Area Konten Utama */
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', 'Georgia', serif; /* Menggunakan font serif agar terlihat mewah */
+}
+
+body {
+    background-color: #fcfcfc; /* Warna krem/broken white super lembut */
+    color: #333333;
+}
+
+/* ==========================================
+   HEADER & NAVIGASI (Warna Hijau Army Tropis)
+   ========================================== */
+header {
+    background-color: #0b132b; /* Hijau army gelap estetik seperti referensi */
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.hotel-title {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+nav {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-menu li a {
+    color: #c7a668; /* Warna krem pudar untuk menu sebelum di-hover */
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase; /* Huruf besar semua agar rapi */
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.dot {
+    color: #c7a668; /* Titik pemisah disamarkan lembut */
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+/* Menu Aktif & Hover */
+.nav-menu li a.active, .nav-menu li a:hover {
+    color: #ffffff; /* Menjadi putih bersih saat diarahkan */
+    text-shadow: none; 
+}
+
+/* ==========================================
+   HERO BANNER (Terang & Bersih)
+   ========================================== */
+.hero-banner {
+    /* Menggunakan overlay putih sangat tipis (0.15) agar foto aslinya super terang dan cerah */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url('../assets/latar.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* Warna teks utama tetap putih */
+    text-align: center;
+    padding: 140px 20px; /* Diperlebar vertikalnya agar foto kelihatan luas dan lega */
+}
+
+/* Efek Bayangan Lembut pada Teks Banner */
+.hero-banner h1 {
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Bayangan gelap agar teks putih tetap terbaca jelas di background terang */
+}
+
+.hero-banner p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Tombol Pesan Kamar (Warna Cokelat Estetik) */
+.hero-banner button, .btn-pesan { 
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #b08968; /* Warna cokelat susu estetik sesuai contoh gambar */
+    color: #ffffff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 0px; /* Kotak tegas tanpa rounded, persis seperti web luxury */
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.3s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.);
+}
+
+.hero-banner button:hover, .btn-pesan:hover {
+    background-color: #7f5539; /* Cokelat lebih gelap saat di-hover */
+}
+
+/* ==========================================
+   AREA KONTEN UTAMA
+   ========================================== */
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+/* Judul " A Best PLACE?" */
+.main-content h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #008c91; /* Warna hijau army untuk teks judul bawah */
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.main-content h2 + p {
+    font-size: 22px; /* Ukuran teks aslinya kecil, kita perbesar ke 22px (bisa kamu ganti misal 24px atau 26px kalau kurang besar) */
+    font-weight: 500; /* Biar tulisan agak sedikit lebih tebal dan jelas terbaca */
+    text-align: center; /* Memastikan posisinya tetap presisi di tengah */
+    margin-top: 10px; /* Memberi jarak yang pas dari tulisan "A best place..." di atasnya */
+
+}
+/* Mengatur 3 foto berjejer di atas teks judul */
+.foto-pembatas-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto 0 auto; /* Memberi jarak dari banner atas */
+    padding: 0 20px;
+    gap: 15px; /* Jarak antar foto */
+}
+
+.foto-pembatas-container img {
+    flex: 1;
+    width: 33.33%;
+    height: 250px; /* Tinggi foto, bisa kamu atur sesuai selera */
+    object-fit: cover; /* Biar fotonya otomatis kepotong rapi & ga gepeng */
+    border-radius: 6px; /* Sudut foto sedikit melengkung biar estetik */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Biar rapi kalau dibuka di HP */
+@media (max-width: 768px) {
+    .foto-pembatas-container {
+        flex-direction: column;
+    }
+    .foto-pembatas-container img {
+        width: 100%;
+    }
+}
+
+/* ==========================================
+   STYLE HALAMAN BOOKING KAMAR 
+   ========================================== */
+
+/* Bungkus utama form booking */
+.booking-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Kotak form berwarna putih bersih */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.booking-container h2 {
+    color: #0b132b !important;     /* <--- GANTI WARNA DI SINI */
+    font-size: 35px !important;    /* <--- GANTI UKURAN HURUF DI SINI (Bawaannya sekitar 24px) */
+    font-weight: 700 !important;   /* Membuat tulisan lebih tebal/tegas */
+    text-align: center !important; /* Membuat judul otomatis di tengah */
+}
+
+body:has(.booking-container),
+.main-content:has(.booking-container) {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('../assets/fasil3.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-color: transparent !important; /* Menghapus warna krem bawaan agar gambar terlihat */
+}
+
+.booking-subtitle {
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+/* Tata letak form */
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Membuat dua kolom input jika dalam satu baris */
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+/* Style Label Input */
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0b132b; /* Teks label menggunakan warna biru tua */
+}
+
+/* Style Kotak Isian (Input, Select, Textarea) */
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fcfbfa;
+    color: #333333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Efek menyala biru muda saat kolom diklik */
+.form-group input:focus, 
+.form-group select:focus, 
+.form-group textarea:focus {
+    outline: none;
+    border-color: #48cae4;
+    box-shadow: 0 0 8px rgba(72, 202, 228, 0.2);
+}
+
+/* Mengatur ukuran textarea khusus catatan */
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Penempatan tombol submit */
+.form-actions {
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Tombol konfirmasi booking warna biru tua mewah */
+.btn-konfirmasi {
+    background-color: #0b132b; /* Biru tua serasi dengan navigasi */
+    color: #ffffff;
+    padding: 14px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%; /* Tombol memanjang penuh agar modern */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-konfirmasi:hover {
+    background-color: #1c2541; /* Berubah sedikit terang saat di-hover */
+}
+
+.btn-konfirmasi:active {
+    transform: scale(0.98);
+}
+
+/* Responsif saat dibuka lewat HP */
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .booking-container {
+        padding: 25px 20px;
+    }
+}
+
+/* ==========================================
+   STYLE HALAMAN KATALOG KAMAR (ZIGZAG)
+   ========================================== */
+.rooms-title {
+    text-align: center;
+    color: #0b132b !important;     /* <--- WARNA: Sudah disamakan (Hijau Sage Tua) */
+    font-size: 40px !important;    /* <--- UKURAN: Sudah disamakan (28px) */
+    font-weight: 700 !important;   /* Membuat teks tebal tegak */
+    margin-bottom: 10px;
+}
+
+.rooms-subtitle {
+    text-align: center;
+    color: #666666;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+body:has(.rooms-container), .main-content:has(.rooms-container) {
+    /* 1. MEMASUKKAN FOTO LATAR BELAKANG */
+    /* Ditambahkan lapisan putih transparan (0.85) agar teks kamar tetap terbaca jelas */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('../assets/latar2.jpg');
+    
+    /* 2. PENGATURAN BIAR FOTO PAS */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efek scroll estetik */
+}
+
+/* Base Card Kamar Split */
+.room-card {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+/* Membuat formasi zigzag otomatis (Baris ke-2 fotonya pindah ke kanan) */
+.room-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* Sisi Gambar */
+.room-image {
+    flex: 1.2;
+    min-height: 350px;
+}
+
+.room-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Sisi Detail Teks */
+.room-details {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.room-tag {
+    align-self: flex-start;
+    background-color: #f4f1ea;
+    color: #b08968;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.room-details h3 {
+    color: #0b132b; /* Biru tua andalan */
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.room-desc {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Grid Spesifikasi Kamar */
+.room-features {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 30px;
+    border-top: 1px solid #eeeeee;
+    padding-top: 20px;
+}
+
+.room-features li {
+    font-size: 13px;
+    color: #666666;
+}
+
+/* Area Harga & Tombol */
+.room-price-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eeeeee;
+    padding-top: 20px;
+}
+
+.room-price {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0b132b;
+}
+
+.room-price small {
+    font-size: 12px;
+    color: #888888;
+    font-weight: 400;
+}
+
+/* Tombol pesan kamar warna cokelat estetik */
+.btn-book-room {
+    background-color: #b08968;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+
+.btn-book-room:hover {
+    background-color: #7f5539;
+}
+
+/* Responsive saat dibuka di HP */
+@media (max-width: 850px) {
+    .room-card, .room-card:nth-child(even) {
+        flex-direction: column;
+    }
+    .room-image {
+        min-height: 250px;
+    }
+    .room-details {
+        padding: 30px 20px;
+    }
+}
+
+/* Mengunci tinggi foto kamar 1 sampai 4 agar besarnya sama rata */
+.room-card:not(.presidential-card) .room-image {
+    flex: 1.2;
+    height: 380px; /* Menyeragamkan tinggi kotak foto */
+}
+
+.room-card:not(.presidential-card) .room-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Foto otomatis terpotong rapi tanpa gepeng */
+}
+
+/* Khusus Kamar ke-5 (Presidential): Dibuat landscape penuh ke bawah/atas teks */
+.room-card.presidential-card {
+    flex-direction: column; /* Fotonya di atas, teksnya di bawah */
+}
+
+.room-card.presidential-card .room-image {
+    width: 100%;
+    height: 400px; /* Tinggi landscape foto ke-5 */
+}
+
+.room-card.presidential-card .room-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ==========================================
+   STYLE HALAMAN PEMBAYARAN & PROMO
+   ========================================== */
+.payment-container {
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* ==========================================
+   HANYA MENAMBAHKAN GAMBAR LATAR BELAKANG
+   ========================================== */
+body:has(.payment-container), .main-content:has(.payment-container) {
+    /* 1. MEMASUKKAN FOTO LATAR BELAKANG */
+    /* Ditambahkan lapisan putih transparan (0.85) agar teks kamar tetap terbaca jelas */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('../assets/fasil1.jpg');
+    
+    /* 2. PENGATURAN BIAR FOTO PAS */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efek scroll estetik */
+}
+
+.payment-container h2 {
+    color: #0b132b !important;     /* <--- GANTI WARNA DI SINI */
+    font-size: 35px !important;    /* <--- GANTI UKURAN HURUF DI SINI (Bawaannya sekitar 24px) */
+    font-weight: 700 !important;   /* Membuat tulisan lebih tebal/tegas */
+    text-align: center !important; /* Membuat judul otomatis di tengah */
+}
+
+.payment-subtitle {
+    text-align: center;
+    color: #666666;
+    font-size: 13px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* Kotak Detail Tagihan (Invoice) */
+.invoice-box {
+    background-color: #f8f9fa;
+    border-left: 4px solid #0b132b;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.invoice-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.invoice-box hr {
+    border: 0;
+    border-top: 1px dashed #cccccc;
+    margin: 15px 0;
+}
+
+.total-row {
+    font-weight: bold;
+    color: #0b132b;
+}
+
+/* Group Input Voucher Promo */
+.promo-input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.promo-input-group input {
+    flex: 1;
+    text-transform: uppercase;
+}
+
+.promo-input-group button {
+    background-color: #b08968; /* Warna cokelat estetik serasi */
+    color: white;
+    border: none;
+    padding: 0 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.promo-input-group button:hover {
+    background-color: #7f5539;
+}
+
+/* Opsi Pilihan Metode Pembayaran (Radio Custom) */
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.method-option input[type="radio"] {
+    display: none; /* Sembunyikan buletin radio bawaan */
+}
+
+.method-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444444;
+    transition: all 0.3s ease;
+}
+
+.method-box .icon {
+    font-size: 20px;
+}
+
+/* Efek ketika opsi metode diklik/pilih */
+.method-option input[type="radio"]:checked + .method-box {
+    border-color: #0b132b;
+    background-color: #f0f3f8;
+    color: #0b132b;
+    font-weight: 600;
+    box-shadow: 0 0 0 1px #0b132b;
+}
+
+/* Tombol Utama Kirim Pembayaran */
+.btn-bayar-sekarang {
+    background-color: #0b132b; /* Biru tua andalan */
+    color: #ffffff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-bayar-sekarang:hover {
+    background-color: #1c2541;
+}
+
+/* ==========================================
+   STYLE HALAMAN REVIEW & TESTIMONI TAMU
+   ========================================== */
+.review-title {
+    text-align: center;
+    color: #0b132b !important;     /* <--- WARNA: Sudah disamakan (Hijau Sage Tua) */
+    font-size: 35px !important;    /* <--- UKURAN: Sudah disamakan (28px) */
+    font-weight: 700 !important;   /* Membuat teks tebal tegak */
+    margin-bottom: 10px;
+}
+
+/* 2. Menambahkan Foto Latar Belakang di Halaman Review */
+/* Catatan: Kita pasang langsung di body halaman review kamu */
+body:has(.reviews-grid),
+.main-content:has(.reviews-grid) {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('../assets/fasil5.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-color: transparent !important;
+}
+
+.review-subtitle {
+    text-align: center;
+    color: #666666;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+/* Penataan susunan kartu ulasan (Grid) */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+/* Desain Kartu Review Putih Bersih */
+.review-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    border-top: 3px solid #0b132b; /* Aksen garis biru tua di atas kartu */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.user-info h3 {
+    color: #0b132b;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.stayed-room {
+    font-size: 12px;
+    color: #888888;
+    display: block;
+}
+
+.review-date {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+/* Mengatur warna bintang menyala */
+.review-stars {
+    margin-bottom: 15px;
+}
+
+.star {
+    font-size: 18px;
+    color: #dddddd; /* Warna bintang kosong */
+    margin-right: 2px;
+}
+
+.star.filled {
+    color: #ffb703; /* Warna kuning emas menyala */
+}
+
+.review-text {
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* Bagian Tombol Ajak Menulis Review */
+.add-review-section {
+    text-align: center;
+    background-color: #0b132b; /* Kotak biru tua andalan */
+    color: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.add-review-section h3 {
+    color: #ffffff; /* Judul Cyan */
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.add-review-section p {
+    color: #cbd5e1;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn-tulis-review {
+    background-color: #b08968; /* Tombol cokelat estetik */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.btn-tulis-review:hover {
+    background-color: #7f5539;
+}
+
+/* ==========================================
+   STYLE HALAMAN RIWAYAT PESANAN (HISTORY)
+   ========================================== */
+.history-title {
+    text-align: center;
+    color: #0b132b !important;     /* <--- WARNA: Sudah disamakan (Hijau Sage Tua) */
+    font-size: 40px !important;    /* <--- UKURAN: Sudah disamakan (28px) */
+    font-weight: 700 !important;   /* Membuat teks tebal tegak */
+    margin-bottom: 10px;
+}
+
+.history-subtitle {
+    text-align: center;
+    color: #666666;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    font-size: 15px;
+}
+
+body:has(.history-container),
+.main-content:has(.history-container),
+body:has(.history-table),
+.main-content:has(.history-table) {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('../assets/fasil5.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-color: transparent !important;
+}
+
+
+/* Membantu tabel agar bisa di-scroll ke samping kalau layarnya kekecilan */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 14px;
+}
+
+.history-table th {
+    background-color: #0b132b; /* Kepala tabel warna biru tua andalan */
+    color: #ffffff;
+    padding: 15px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+
+
+.history-table td {
+    padding: 15px 17px;
+    border-bottom: 1px solid #fafafa;
+    color: #333333;
+}
+
+.history-table tr,
+.history-table tbody tr,
+.history-table tbody tr:nth-child(even),
+.history-table tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Efek baris abu-abu tipis bergantian */
+.history-table tbody tr:nth-child(even) {
+    background-color: #fcfbfa;
+}
+
+/* Mengatur detail teks tanggal */
+.date-text {
+    display: inline-block;
+}
+.date-sep {
+    display: block;
+    font-size: 11px;
+    color: #999999;
+    margin: 2px 0 2px 18px;
+}
+
+/* Style Badge Status Pembayaran */
+.badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.badge-lunas {
+    background-color: #e8f5e9;
+    color: #2e7d32; /* Teks Hijau */
+}
+
+.badge-belum {
+    background-color: #ffebee;
+    color: #c62828; /* Teks Merah */
+}
+
+/* ==========================================
+   ZOOM & PERBESAR LOGO ASLI GRAND BALWIL (BERSIH)
+   ========================================== */
+
+/* 1. Mengatur wadah header agar pas di tengah */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 10px 0;
+    height: auto;
+}
+
+/* 2. Mengatur wadah kotak logo */
+header .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px; /* Jarak pas ke tulisan hotel */
+}
+
+/* 3. Efek ZOOM / Perbesar Logo (Format Kotak Asli) */
+header .logo-container img.nav-logo {
+    width: 140px;  /* Ukuran besar nge-zoom */
+    height: auto;  /* Tinggi otomatis proporsional mengikuti lebar */
+    max-width: 180px; 
+    border-radius: 0; /* Tetap kotak sesuai bentuk asli logo */
+    object-fit: contain; /* Memastikan logo tidak gepeng atau terpotong */
+    
+    /* Memberikan bayangan halus di belakang bentuk logo agar lebih stand out */
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3)); 
+}
+
+/* 4. Mengatur nama hotel di bawahnya */
+header .hotel-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
